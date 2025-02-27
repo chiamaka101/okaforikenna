@@ -172,8 +172,9 @@ footer{
     display: block;
     text-align: center;
   } 
-  .projects {
+  .projects img{
     display: block;
     text-align: center;
+
   }
 }
