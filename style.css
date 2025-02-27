@@ -1,5 +1,5 @@
 body{
-  margin: 0;
+  margin:0;
   font-family: serif;
   font-size: 20px;
 }
@@ -100,14 +100,16 @@ h1{
   position: relative; 
   justify-content: space-between;
   align-content:center;
-  text-align: center;
-  gap: 15px;
+  text-align: center; 
+  gap: 20px;
+
 }
 .project img{
   border-radius: 10px;
   margin-right: 20px;
   margin-left: 20px;
 }
+
 .project p{
 text-align: justify;
 margin-left: 30px;
@@ -138,9 +140,9 @@ footer{
   display: none;
  }
 @media(max-width:900px){
-    .btn{
-      display: flex;
-      cursor: pointer;
+  .btn{
+    display: flex;
+    cursor: pointer;
  }
  .menu{
   flex-direction: column;
@@ -165,15 +167,17 @@ footer{
  .menu.active{
   left: 0;
  }
- }
-
- @media (max-width:900px) {
   .block {
     display: block;
     text-align: center;
   } 
-  .projects {
-    display: block;
+  .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .pro-1 p{
     text-align: center;
   }
 }
+
